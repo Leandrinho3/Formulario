@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color:azure;
+}
+
+.titulo{
+    font-family: sans-serif;
+    color: #380861;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.titulo-paragrafo{
+    color: #380861;
+    font-size: 40px;
+    padding:15px;
+    text-align: center;
+}
+
+.imagem{
+    width: 100%;
+}
+
+.grupo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.campo{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    margin-left: 2%;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+
+.Serionidade{
+    margin: 15px;
+}
+
+.botao {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 45%;
+    width: 18%;
+}
+.botao:hover{
+    background-color:#ccbbff;
+    
+    }
+    
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
